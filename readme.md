@@ -8,5 +8,5 @@
   布局和UI
   scale 屏幕适配，但是会有白边
 
-# v2 屏幕适配
-   rem 
+# v2 使用插件,解决留白问题
+   npm install v-scale-screen

@@ -12,6 +12,7 @@
     "@kjgl77/datav-vue3": "^1.7.2",
     "autofit.js": "^3.0.7",
     "echarts": "^5.4.3",
+    "v-scale-screen": "^2.2.0",
     "vue": "^3.3.11"
   },
   "devDependencies": {

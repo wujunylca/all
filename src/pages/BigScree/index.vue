@@ -1,41 +1,43 @@
 <template>
-  <div class="screen-conteriner">
-    <div class="screen" ref="screenRef">
-      <Header></Header>
-      <section class="con">
-        <div class="con-left">
-          <BorderBox13 style="height: 300px">
-            <div class="test">
-              <Area />
-            </div>
-          </BorderBox13>
-          <BorderBox13 style="height: 300px">
-            <div class="test">
-              <Capsulechart />
-            </div>
-          </BorderBox13>
-        </div>
-        <div class="con-center">
-          <China />
-        </div>
-        <div class="con-right">
-          <RolesRank />
-        </div>
-      </section>
-      <section class="con con2">
-        <div class="con-extra-left">
-          <BorderBox11 style="height: 300px">
-            <div class="test">还没开始</div>
-          </BorderBox11>
-        </div>
-        <div class="con-extra-right">
-          <BorderBox11 style="height: 300px">
-            <div class="test">还没开始</div>
-          </BorderBox11>
-        </div>
-      </section>
+  <VScaleScreen width="1920" height="1080">
+    <div class="screen-conteriner">
+      <div class="screen" ref="screenRef">
+        <Header></Header>
+        <section class="con">
+          <div class="con-left">
+            <BorderBox13 style="height: 300px">
+              <div class="test">
+                <Area />
+              </div>
+            </BorderBox13>
+            <BorderBox13 style="height: 300px">
+              <div class="test">
+                <Capsulechart />
+              </div>
+            </BorderBox13>
+          </div>
+          <div class="con-center">
+            <China />
+          </div>
+          <div class="con-right">
+            <RolesRank />
+          </div>
+        </section>
+        <section class="con con2">
+          <div class="con-extra-left">
+            <BorderBox11 style="height: 300px">
+              <div class="test">还没开始</div>
+            </BorderBox11>
+          </div>
+          <div class="con-extra-right">
+            <BorderBox11 style="height: 300px">
+              <div class="test">还没开始</div>
+            </BorderBox11>
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
+  </VScaleScreen>
 </template>
 
 <script setup lang="ts">
@@ -44,6 +46,7 @@ import RolesRank from "./components/RolesRank.vue";
 import Area from "./components/Area.vue";
 import Capsulechart from "./components/Capsulechart.vue";
 import China from "./components/China.vue";
+import VScaleScreen from "v-scale-screen";
 // import { reactive } from "vue";
 import {
   BorderBox13,
