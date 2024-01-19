@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import BigScree from "./pages/BigScree/index.vue";
+import { RouterView } from "vue-router";
 </script>
 
 <template>
-  <BigScree />
+  <RouterView />
 </template>
 
 <style scoped></style>
