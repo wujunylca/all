@@ -10,3 +10,4 @@
 
 # v2 使用插件,解决留白问题
    npm install v-scale-screen
+
